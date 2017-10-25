@@ -10,8 +10,8 @@
 	require_once('testModel.class.php');
 	require_once('testView.class.php');
 	
-	$testController =new testController();
 	//浏览者->1、调用控制器，对其发出指令
+	$testController =new testController();	
 	$testController->show();
 	
 
